@@ -15,7 +15,7 @@ def lambda_handler(event, context):
         'grant_type': 'authorization_code',
         'client_id': CLIENT_ID,
         'code': code,
-        #'redirect_uri': 'http://localhost:3000/',  # Your redirect URI http://localhost:3000/
+        #'redirect_uri': 'http://localhost:3000/',  
         'redirect_uri': 'https://main.dzgh2fc7t2w9u.amplifyapp.com/',
     }
 
